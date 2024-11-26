@@ -163,6 +163,30 @@ __v
 
 ![image](https://github.com/user-attachments/assets/f36edb47-382f-4f16-a250-cf54b9acce62)
 
+## 🌐 Deploying the Application
+
+Short_url is deployed on Railway
+
+- Sign Up for Railway: Visit Railway.app and create an account if you don’t have one.
+
+- Create a New Project: Click on "New Project."
+ Select "Deploy from GitHub Repo."
+ Link your GitHub account and choose this repository.
+ Add Environment Variables:
+
+- Go to the project settings.
+ Add an environment variable:
+ Key: MONGO_URI
+ Value: Your MongoDB URI.
+ Start the Deployment:
+
+- Railway will automatically detect the package.json file and install dependencies.
+ It will run npm start by default to start the application.
+ Access Your App:
+ Once deployed, Railway will provide a live URL for your app, e.g., https://your-app-name.up.railway.app.
+
+
+
 
 
 
