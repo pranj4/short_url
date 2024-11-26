@@ -186,6 +186,11 @@ Short_url is deployed on Railway
  Once deployed, Railway will provide a live URL for your app, e.g., https://your-app-name.up.railway.app.
 
 
+# Depoloyed URL from Railway 
+
+## shorturl-production-c9a6.up.railway.app
+
+
 
 
 
