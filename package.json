@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": " npx nodemon index.js"
+    "start": "if [ $NODE_ENV = 'production' ]; then node index.js; else npx nodemon index.js; fi"
   },
   "keywords": [],
   "author": "",
